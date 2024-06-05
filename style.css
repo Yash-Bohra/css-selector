@@ -1,0 +1,22 @@
+ol {        
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+p{    /* all p tags color change to red*/
+  color:red;
+}
+.note{        /* every class whose name is note ; font size changes to 20px */
+  font-size:20px;
+}
+#id-selector-demo{    /* unique id id-selector-demo color changes to green */
+  color:green;
+}
+li[value="4"]{    /* every li tag which have value="4" color changes to blue */
+  color:blue;
+}
+*{      /* every thing aligns to center ie; * applies css to everything */
+  text-align:center;
+}
